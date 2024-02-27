@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf=8" />
+    <meta name="viewport", content="width=device-width, initial-scale=1">
+    <title>Div element</title>
+    <style>
+        #heading {
+            background-color:bisque;
+            color: brown;
+            text-align: center;
+        }
+        #headind2 {
+            color: darkgreen;
+            text-align: center;
+        }
+        #heading3 {
+            color: cadetblue;
+            text-align: center;
+        }
+        /*-- h1 {
+            text-align: center;
+            color: brown;
+        }*/
+        p {
+            text-align: justify;
+        }
+        div.mcontainer {
+            width:100%;
+            overflow:visible;
+        }
+        div.mycontainer div {
+            width: 50%;
+            float: left;
+        }
+    </style>
+    <body>
+        <div class="mycontainer">
+        <h1 id="heading">Flexicommerce Services</h1>
+        <div style="background-color:goldenrod;">
+        <h2 id="headind2">
+            SAP Commerce Cloud (Hybris)
+        </h2>
+    <p>Hybris, a cloud-based e-commerce platform solution for B2B and B2C enterprises</p></div>
+    </div>
+    <div style="background-color: khaki;">
+    <h2 id="headind3">
+        Omni Channel Experience
+    </h2>
+    <p>Let us make your channels work together by leveraging efficiencies of each other in creating a unified digital experience for your customers
+    </p>
+    </div>
+    </div>
+    </body>
+</head>
+</html>
