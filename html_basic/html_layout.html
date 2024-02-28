@@ -3,7 +3,61 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport", content="width=device=width initial-scale=1">
-        <stytle></stytle>
+        <style>
+            * {
+                box-sizing: border-box;
+                color: greenyellow;
+                background-color: black;
+            }
+
+        .FlexiCommerce {
+            text-align: center;
+                      
+
+        }
+
+            
+        body {
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        header {
+            background-color:brown;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color:goldenrod;
+        }
+
+        nav{
+            float:left;
+            width:30%;
+            height: 300px;
+            padding: 10px;
+
+        }
+        article {
+            float: left;
+            padding: 10%;
+            width: 70%;
+            background-color: black;
+        }
+
+        footer {
+            background-color: grey;
+            padding: 10px;
+            text-align: center;
+
+
+        }
+
+        @media(max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+        </style>
 </head>
 <body>
     <h2 id="FlexiCommerce">FlexiCommerce</h2>
@@ -16,22 +70,35 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">SAP Hybris</a>
+                    <a href="#l1">SAP Hybris</a>
                 </li>
                 <li>
-                   <a href="#"> Ecommerce Integration
+                   <a href="#l2"> Ecommerce Integration
                 </a>
                 </li>
-                <li><a href="#">
+                <li><a href="#l3">
                     Manhattan Active Omini
                 </a>
                 </li>
-                <li><a href="#">
+                <li><a href="#l4">
                     SalesForce Commerce Cloud
                 </li></a>
             </ul>
-                
-        </nav>
+                </nav>
+                <artcle>
+                    <h1 id="l1">SAP Hybris</h1>
+                    <p>If you are a big SAP house and looking for an ecommerce technology partner specialised in SAP Hybris, you have come to the right place. Please contact us at info@flexicommerce.co.uk</p>
+                    <h1 id="l2">Ecommerce Integration</h1>
+                    <p>Headless, Integrated or Micro Service Oriented - Whichever ecommerce strategy you might choose based on your business needs, our experienced team of ecommerce consultants can help you build a flexible, cost effective & sustainable digital platform</p>
+                    <h1 id="l3">Manhattan Active Omini</h1>
+                    <p>Let us make your channels work together by leveraging efficiencies of each other in creating a unified digital experience for your customers</p>
+                    <h1 id="l4">SalesForce Commerce Cloud</h1>
+                    <p>Realize the full potential of your business by aligning people, processes and technology in a sustainable and cost effective way.</p>
+                </artcle>
     </section>
+    <footer>
+        <h2>Contact Us</h2>
+        <p a href="https://flexicommerce.co.uk">Email<br>Social Media<br>Phone<br>Fax</p>
+    </footer>
 </body>
 </html>
